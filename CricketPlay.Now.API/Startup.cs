@@ -1,4 +1,5 @@
-﻿using Microsoft.OpenApi.Models;
+﻿using CricketPlay.Now.API.Managers;
+using Microsoft.OpenApi.Models;
 using Newtonsoft.Json;
 
 namespace CricketPlay.Now.API
@@ -17,8 +18,9 @@ namespace CricketPlay.Now.API
                 options.SerializerSettings.ReferenceLoopHandling = ReferenceLoopHandling.Ignore;
                 options.SerializerSettings.NullValueHandling = NullValueHandling.Ignore;
             });
+            services.AddScoped<IAccountManager, AccountManager>();
+            services.AddScoped<IRoleManager, RoleManager>();
 
-          
             services.AddMvc().AddXmlSerializerFormatters();
 
             services.AddCors(options =>
