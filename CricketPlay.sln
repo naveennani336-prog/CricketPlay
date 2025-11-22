@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CricketPlay.Now.UI", "Crick
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CricketPlay.Now.API", "CricketPlay.Now.API\CricketPlay.Now.API.csproj", "{B191D735-B798-44F5-AA0C-28E881FF7DBB}"
 EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "CricketPlay.Now.DB", "CricketPlay.Now.DB\CricketPlay.Now.DB.sqlproj", "{F934253F-47D7-4803-97A1-6C1AFAC14719}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,12 @@ Global
 		{B191D735-B798-44F5-AA0C-28E881FF7DBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B191D735-B798-44F5-AA0C-28E881FF7DBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B191D735-B798-44F5-AA0C-28E881FF7DBB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F934253F-47D7-4803-97A1-6C1AFAC14719}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F934253F-47D7-4803-97A1-6C1AFAC14719}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F934253F-47D7-4803-97A1-6C1AFAC14719}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{F934253F-47D7-4803-97A1-6C1AFAC14719}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F934253F-47D7-4803-97A1-6C1AFAC14719}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F934253F-47D7-4803-97A1-6C1AFAC14719}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
